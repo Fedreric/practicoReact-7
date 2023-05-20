@@ -17,6 +17,11 @@ const EmpleadoList = () => {
     <div className="container">
       <ListGroup>
         <EmpleadoRow empleado={empleados}></EmpleadoRow>
+        <EmpleadoRow empleado={empleados}></EmpleadoRow>
+        <EmpleadoRow empleado={empleados}></EmpleadoRow>
+        <EmpleadoRow empleado={empleados}></EmpleadoRow>
+        <EmpleadoRow empleado={empleados}></EmpleadoRow>
+        <EmpleadoRow empleado={empleados}></EmpleadoRow>    
       </ListGroup>
     </div>
   );

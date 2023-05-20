@@ -5,7 +5,7 @@ const EmpleadoRow = ({ empleado }) => {
   const listaEmpleados = empleado;
 
   return (
-    <ListGroup.Item>
+    <ListGroup.Item className="my-1">
       <article className="row align-items-center">
         <div className="col-4 col-md-2">
           <EmpleadoAvatar avatar={listaEmpleados[0].pic} />
