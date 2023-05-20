@@ -1,8 +1,13 @@
-import { ListGroup } from "react-bootstrap";
+import { ListGroup, Badge } from "react-bootstrap";
 
-const EmpleadoRow = () => {
+const EmpleadoRow = ({empleado}) => {
+    const listaEmpleados = empleado;
+
     return (
-            <ListGroup.Item>Dapibus ac facilisis in</ListGroup.Item>
+        <ListGroup.Item>
+            <p>{listaEmpleados[0].fullName}</p>
+            <b>{listaEmpleados[0].title}</b> <Badge>{listaEmpleados[0].department}</Badge>
+        </ListGroup.Item>
     );
 };
 

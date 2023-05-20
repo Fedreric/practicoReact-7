@@ -16,10 +16,7 @@ const EmpleadoList = () => {
   return (
     <div>
       <ListGroup>
-        <EmpleadoRow></EmpleadoRow>
-        <EmpleadoRow></EmpleadoRow>
-        <EmpleadoRow></EmpleadoRow>
-        <EmpleadoRow></EmpleadoRow>
+        <EmpleadoRow empleado={empleados}></EmpleadoRow>
       </ListGroup>
     </div>
   );
