@@ -3,7 +3,7 @@ import EmpleadoRow from "./EmpleadoRow";
 
 const EmpleadoList = () => {
     let empleados = [
-        { id: 1, fullName: "Laya Dueñas", title: "CEO", department: "Business", pic: "empleado01.png" },
+        { id: 1, fullName: "Laya Dueñas", title: "CEO", department: "Business", pic: "https://thumbs.dreamstime.com/b/empleado-1186693.jpg" },
         { id: 2, fullName: "Astryd Vallés", title: "CMO", department: "Marketing", pic: "empleado02.png" },
         { id: 3, fullName: "Shantell Meza", title: "CFO", department: "Business", pic: "empleado03.png" },
         { id: 4, fullName: "Sergio Ocampo", title: "CTO", department: "Engineering", pic: "empleado04.png" },
@@ -14,7 +14,7 @@ const EmpleadoList = () => {
         { id: 9, fullName: "Bernard Jung", title: "DevOps Engineer", department: "Engineering", pic: "empleado09.png" },
       ]     
   return (
-    <div>
+    <div className="container">
       <ListGroup>
         <EmpleadoRow empleado={empleados}></EmpleadoRow>
       </ListGroup>

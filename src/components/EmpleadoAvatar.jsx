@@ -1,8 +1,7 @@
-const EmpleadoAvatar = () => {
+import Image from 'react-bootstrap/Image';
+const EmpleadoAvatar = ({avatar}) => {
     return (
-        <div>
-            
-        </div>
+        <Image src={avatar} roundedCircle className='EmpleadoAvatar'/>
     );
 };
 
