@@ -1,4 +1,5 @@
 import { ListGroup } from "react-bootstrap";
+import EmpleadoRow from "./EmpleadoRow";
 
 const EmpleadoList = () => {
     let empleados = [
@@ -15,11 +16,10 @@ const EmpleadoList = () => {
   return (
     <div>
       <ListGroup>
-        <ListGroup.Item empleados={empleados}>Cras justo odio</ListGroup.Item>
-        <ListGroup.Item>Dapibus ac facilisis in</ListGroup.Item>
-        <ListGroup.Item>Morbi leo risus</ListGroup.Item>
-        <ListGroup.Item>Porta ac consectetur ac</ListGroup.Item>
-        <ListGroup.Item>Vestibulum at eros</ListGroup.Item>
+        <EmpleadoRow></EmpleadoRow>
+        <EmpleadoRow></EmpleadoRow>
+        <EmpleadoRow></EmpleadoRow>
+        <EmpleadoRow></EmpleadoRow>
       </ListGroup>
     </div>
   );
