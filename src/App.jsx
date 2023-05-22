@@ -5,7 +5,9 @@ function App() {
 
   return (
     <>
+    <section className='mb-5'>
      <EmpleadoList></EmpleadoList>
+    </section>
     </>
   )
 }
