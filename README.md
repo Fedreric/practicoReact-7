@@ -13,6 +13,7 @@ git clone https://github.com/Fedreric/practicoReact-7.git
 >**EJECUTAR:** 
 - npm install
 - npm run dev 
+- https://practicoreact-7-fede39i.netlify.app/
 
 ## Autor 👨‍💻
  Federico Luciano Ledesma [GitHub](https://github.com/Fedreric)
